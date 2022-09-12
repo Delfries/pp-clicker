@@ -1,4 +1,5 @@
 
+from os import system
 from colorama import Fore
 import win32api
 import time
@@ -48,4 +49,5 @@ while True:
         last_state = state
         if state < 0:
             penis_size += 1
+            system('cls')
             draw_penis(penis_size, penis_color)
