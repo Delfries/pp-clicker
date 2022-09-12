@@ -9,4 +9,9 @@ elif penis_size < 3:
 else:
     print(f'Your penis will be {penis_size} wide')
 
-print("8" + penis_size * "=" + "D")
+print('\n\n=====PENIS PREVIEW=====\n\n')
+print(' _____')
+print('/     \\')
+for i in range(0, penis_size):
+    print('|     |')
+print('O     O')
