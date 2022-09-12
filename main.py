@@ -1,8 +1,8 @@
-print("how wide would you like your penis to be?")
-x = input()
+print("How many inches long would you like your penis to be?")
+penis_size = int(input())
 
-if int(x) > 32:
+if int(penis_size) > 32:
     print('Sorry your penis is too wide :(')
     exit(0)
-
-print("Your penis will be " + x + " wide")
+else:
+    print("Your penis will be " + str(penis_size) + " wide")
