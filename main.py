@@ -15,18 +15,20 @@ penis_color = (input('What color is your penis?:'))
 
 print('\n\n=====PENIS PREVIEW=====\n\n')
 
-color = Fore.WHITE
-if penis_color == "red":
-    color = Fore.RED
-    print(Fore.RED)
-elif penis_color == "blue":
-    color = Fore.BLUE
-    print(Fore.BLUE)
-elif penis_color == "green":
-    color = Fore.GREEN
-    print(Fore.GREEN)
-else:
-    print(Fore.WHITE + "Too bad, you're getting a white penis")
+color = getattr(Fore, penis_color.upper())
+print(color)
+# color = Fore.WHITE
+# if penis_color == "red":
+#     color = Fore.RED
+#     print(Fore.RED)
+# elif penis_color == "blue":
+#     color = Fore.BLUE
+#     print(Fore.BLUE)
+# elif penis_color == "green":
+#     color = Fore.GREEN
+#     print(Fore.GREEN)
+# else:
+#     print(Fore.WHITE + "Too bad, you're getting a white penis")
 
 print('      _____')
 print('     /  |  \\')
