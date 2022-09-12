@@ -12,6 +12,7 @@ else:
 print('\n\n=====PENIS PREVIEW=====\n\n')
 print(' _____')
 print('/     \\')
+print('\\     /')
 for i in range(0, penis_size):
     print('|     |')
 print('O     O')
