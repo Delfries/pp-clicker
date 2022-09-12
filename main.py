@@ -1,4 +1,7 @@
-from colorama import *
+
+from colorama import Fore
+import win32api
+import time
 
 penis_size = int(input(Fore.WHITE + 'How long is your penis (inches): '))
 
@@ -33,3 +36,8 @@ print(color, end='')
 print('   ____   ____')
 print('  /    \\ /    \\  ')
 print('  \\____/ \\____/')
+
+while True:
+    if win32api.GetKeyState(1):
+        print('Left clicked')
+    time.sleep(0.001)
