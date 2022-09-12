@@ -1,3 +1,5 @@
+from colorama import *
+
 penis_size = int(input('How long is your penis (inches): '))
 
 if penis_size > 32:
