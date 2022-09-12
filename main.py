@@ -1,6 +1,6 @@
 from colorama import *
 
-penis_size = int(input('How long is your penis (inches): '))
+penis_size = int(input(Fore.WHITE + 'How long is your penis (inches): '))
 
 if penis_size > 32:
     print('Sorry your penis is too long :(')
