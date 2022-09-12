@@ -24,4 +24,3 @@ for i in range(0, penis_size):
 print('   ____   ____')
 print('  /    \\ /    \\  ')
 print('  \\____/ \\____/')
-  
