@@ -3,6 +3,7 @@ from colorama import Fore
 import win32api
 import time
 
+
 penis_size = int(input(Fore.WHITE + 'How long is your penis (inches): '))
 
 if penis_size > 32:
@@ -37,7 +38,9 @@ print('   ____   ____')
 print('  /    \\ /    \\  ')
 print('  \\____/ \\____/')
 
+last_state = 1
 while True:
-    if win32api.GetKeyState(1):
-        print('Left clicked')
-    time.sleep(0.001)
+    if (state := win32api.GetKeyState(1)) != last_state:
+        last_state = state
+        if state < 0:
+            print(f'Left clicked {state}')
