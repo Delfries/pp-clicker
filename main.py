@@ -14,7 +14,14 @@ print('      _____')
 print('     /  |  \\')
 print('     \\     /')
 for i in range(0, penis_size):
-    print('    |     |')
-print(' ____')
-print('/    \\')
-print('\\____/')
+    print('     |     |', end='')
+    if i == 0 or i == penis_size - 1:
+        print(' ---+')
+    elif i == penis_size // 2:
+        print(f'    +--- {penis_size} inches')
+    else:
+        print('    |')
+print('   ____   ____')
+print('  /    \\ /    \\  ')
+print('  \\____/ \\____/')
+  
