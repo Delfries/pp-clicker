@@ -10,9 +10,11 @@ else:
     print(f'Your penis will be {penis_size} long')
 
 print('\n\n=====PENIS PREVIEW=====\n\n')
-print(' _____')
-print('/  |  \\')
-print('\\     /')
+print('      _____')
+print('     /  |  \\')
+print('     \\     /')
 for i in range(0, penis_size):
-    print('|     |')
-print('O     O')
+    print('    |     |')
+print(' ____')
+print('/    \\')
+print('\\____/')
