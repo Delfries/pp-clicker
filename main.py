@@ -8,3 +8,5 @@ elif penis_size < 3:
     print('Sorry your penis is too small :)')
 else:
     print(f'Your penis will be {penis_size} wide')
+
+print("8" + penis_size * "=" + "D")
