@@ -1,3 +1,9 @@
+"""
+Overengineered Penis Class
+
+No copyright, do whatever you want I am not responsible.
+"""
+
 PENIS_HEAD = """
     _____
    /  |  \\
