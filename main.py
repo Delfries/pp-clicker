@@ -52,3 +52,4 @@ while True:
             penis_size += 1
             system('cls')
             draw_penis(penis_size, penis_color)
+            cum = cum + 1
