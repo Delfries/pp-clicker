@@ -3,6 +3,7 @@ from os import system
 from colorama import Fore
 import win32api
 import time
+from cum import cum_variable
 
 def draw_penis(penis_size: int, color: str):
     print('\n\n=====PENIS PREVIEW=====\n\n')
