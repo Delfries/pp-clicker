@@ -4,6 +4,7 @@ from colorama import Fore
 import win32api
 import time
 
+cum = 0
 
 def draw_penis(penis_size: int, color: str):
     print('\n\n=====PENIS PREVIEW=====\n\n')
