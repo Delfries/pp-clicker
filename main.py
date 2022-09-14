@@ -3,8 +3,6 @@ from os import system
 from colorama import Fore
 import win32api
 
-from penis import MeasuredPenis
-
 cum = 0
 
 penis_size = int(input(Fore.WHITE + 'How long is your penis (inches): '))
